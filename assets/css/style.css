@@ -1,43 +1,23 @@
+html{
+    overflow-y: scroll;
+}
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.image-resize { 
+    height: 380px;
+    object-fit: cover;
+    object-position: center center;
+}
 
-.box-set {
-    position: relative;
-    height: 400px;
-    background: darkgray;
+body{ 
+    
+      background-color: white;
   }
-  
-  .box {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background: red;
-    border: 2px solid black;
-  }
-  
-  .box-1 {
-    top: 10px;
-    left: 10px;
-  }
-  
-  .box-2 {
-    bottom: 10px;
-    left: 70px;
-    z-index: 5;
-  }
-  
-  .box-3 {
-    top: 10px;
-    left: 130px;
-    z-index: 2;
-  }
-  
-  .box-4 {
-    bottom: 10px;
-    left: 190px;
-    z-index: 6;
-  }
-.contact-title{
+.contact-title {
     margin-top: 100px;
-    color:blue;
+    color:#777777;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
  }
@@ -62,14 +42,14 @@
       border: none;
       outline: none;
       border-bottom: 1px solid gray;
-      color: red;
+      color: #4aaaa5;
       font-size: 18px;
       margin-bottom: 16px;
   }
   form.submit{
-      background:#ff5722;
-      border-color: transparent;
-      color:blue;
+      background: #666666;
+      border-color: black;
+      color:#4aaaa5;
       font-size: 20px;
       font-weight:bold;
       letter-spacing: 2px;
@@ -85,8 +65,8 @@ header {
 	height: 90px;
 	width: 960px;
 	margin-bottom: 50px;
-    background-color: #ffffff;
-    border-color:#cccccc;
+    background-color: black;
+    border-color:white;
     border-bottom: solid 10px #4aaaa5;
 }
 input{ 
@@ -106,9 +86,9 @@ h1 {
     float:left;
 	margin-left: 10%;
 	padding: 20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times 'Times New Roman';
 	background-color: #4aaaa5;
-	color: #ffffff;
+	color:white;
 	font-size: 30px;
 }
 
@@ -118,10 +98,12 @@ h2 {
 	color: #4aaaa5;
 }
 
+
 h3 {float: left;
 	font-size: 20px;
 	color: #777777;
 }
+
 nav{ 
     float: right;
 
@@ -168,27 +150,7 @@ body {
    
 }
 
-.content{ background:blue;
-width: 50% ;
-padding:40px;
-margin: 100px auto;
-}
-.row{ 
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-
-}
-.column{ 
-    flex: 100%;
-    padding: 1 8px;
-}
-.column img{ 
-    margin-top: 80px;
-    vertical-align: middle;
-}
-
-footer {
+ footer {
 	clear: both;
 	background-color: #666666;
 	border-top: solid 4px #4aaaa5;
@@ -198,3 +160,15 @@ footer {
 	position: fixed;
 	bottom: 0;
 }
+
+table{
+    border-spacing: 50px;
+}
+th, td {
+    padding: 15px;
+    height: 560px;
+    width:960px;
+    
+    
+  }
+  
