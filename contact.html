@@ -5,12 +5,10 @@
         <style type="text/css"> 
             </style>
     <meta charset=utf-8>
-    <div class="main">
+
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        
-        <body>
-          
-            <header>
+         <body background="assets/images/gravel.png">
+           <header>
                
      <nav>
      
@@ -23,34 +21,44 @@
         <nav>
             </nav>
             <h1>Griffin</h1>
-           
-     
-
-    </header>
-   
-    <h2>About Me</h2>
+          
+         
+         
+         
+         </header>  
 </head>
 
                <div class="contact-title">
                    <h1>Contact</h1>
                    <h2>Name</h2>
-               </div>
-               <div class="contact-form">
-                   <form id="contact-form" method="post" action=""></form>
-               <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-               <br>
-               <input name="email" type="text" class="form-control" placeholder="Your Email" required>
-               <br>
-            <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
-            <br>
-            <input type="submit" class="form-control submit" value="SEND MESSAGE">
-            
-            </div>
+                   <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="firstname">First Name</label>
+                      <input type="text" id="First" name="firstname" placeholder="Your name..">
+                  
+                      <label for="E-mail">E-mail</label>
+                      <input type="text" id="E-mail" name="E-mail" placeholder="Patsfan@gmail.com..">
+                  
+                      <label for="country">Where You Live???</label>
+                      <select id="country" name="country">
+                        <option value="The USA">USA</option>
+                        <option value="Over here">Over There</option>
+                        <option value="This place">Obviously Here</option>
+                      </select>
+                  
+                      <label for="subject">Message</label>
+                      <textarea id="Message" name="Message" placeholder="Write Message Here" style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
 
 
-       
-                               
-               </nav>
+
+
+       </div>
                <footer>
                     &copy; copyright
                 </footer>
